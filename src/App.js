@@ -10,7 +10,7 @@ function App() {
     <>
 
       <div className="App">
-      <button onClick={()=>setShow(true)}>Show Modal</button>
+      <button onClick={()=>setShow(true)}> Modal</button>
        <Modal  onClose={()=>setShow(false)} show={show}/> 
       </div>
       </>
